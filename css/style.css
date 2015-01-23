@@ -1,0 +1,36 @@
+body.index {
+	background-image: url("vid/home.mp4");
+}
+	
+	video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+
+a {
+    display: block;
+    width: 60px;
+}
+
+li {
+	    list-style-type: none;
+	    padding-top: 35px;
+}
+
+#wrapper{
+  float:left;
+  width:100%;
+  border-left:240px solid #e6ece9; /* Sidebar left background color */
+  border-right:240px solid #e6ece9; /* Siderab right background color */
+  margin-left:-240px;
+  margin-right:-240px;
+  background:#e6ece9 url('gif/sidebar.gif') repeat;
+  display:inline;
+} 
+
+#sidebar_left {
+background:url("gif/sidebar.gif") repeat scroll 0 0 #E6ECE9;
+}
